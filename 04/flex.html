@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+
+    <style media="screen">
+      .con{
+        background-color: #95a5a6;
+        height: 100vh;
+      }
+      .blue{
+        background-color: #3498db;
+      }
+      .green{
+        background-color: #2ecc71;
+      }
+
+      .rowHeight{
+        background-color: #000;
+        height: 100px;
+      }
+
+    </style>
+    </head>
+  <body>
+
+    <div class="container con">
+      <div class="row">start</div>
+      <div class="row rowHeight align-items-start">
+        <div class="col blue">column 1</div>
+        <div class="col green">column 2</div>
+        <div class="col blue">column 3</div>
+      </div>
+
+      <hr />
+      <div class="row">center</div>
+      <div class="row rowHeight align-items-center">
+        <div class="col blue">column 1</div>
+        <div class="col green">column 2</div>
+        <div class="col blue">column 3</div>
+      </div>
+
+      <hr />
+      <div class="row">end</div>
+      <div class="row rowHeight align-items-end">
+        <div class="col blue">column 1</div>
+        <div class="col green">column 2</div>
+        <div class="col blue">column 3</div>
+    </div>
+
+    <hr />
+    <div class="row">self</div>
+    <div class="row rowHeight">
+      <div class="col blue align-self-start">column 1</div>
+      <div class="col green align-self-center">column 2</div>
+      <div class="col blue align-self-end">column 3</div>
+    </div>
+
+  </div>
+
+
+
+  </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</html>
